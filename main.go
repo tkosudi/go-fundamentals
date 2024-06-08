@@ -9,7 +9,7 @@ func main() {
 
 	fmt.Printf("Welcome to %v booking application\n", conferenceName)
 
-	fmt.Println("We have total of", conferenceTickets, "tickets and", remainingTickets, "are still available.")
+	fmt.Printf("We have total of %v tickets and %v are still available.\n", conferenceTickets, remainingTickets)
 
 	fmt.Println("Get your tickets he to attend")
 
